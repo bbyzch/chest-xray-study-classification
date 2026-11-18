@@ -1,0 +1,17 @@
+{
+  "ckpts": [
+    "../weights/convnext_base_s448_seed0_pre22k-distill0.6t2-bnorm_full_stop8/full/ckpt.safetensors",
+    "../weights/swin_v2_t_s384_seed0_distill0.6t2-e24_full_stop14/full/ckpt.safetensors",
+    "../weights/convnext_tiny_s384_seed0_distill0.6t2-nocl_full_stop8/full/ckpt.safetensors",
+    "../weights/convnext_base_s384_seed0_pre22k-distill0.6t2-bnorm_full_stop10/full/ckpt.safetensors"
+  ],
+  "weights": {
+    "convnext_base_s448_seed0_pre22k-distill0.6t2-bnorm_full_stop8": 0.294,
+    "swin_v2_t_s384_seed0_distill0.6t2-e24_full_stop14": 0.253,
+    "convnext_tiny_s384_seed0_distill0.6t2-nocl_full_stop8": 0.231,
+    "convnext_base_s384_seed0_pre22k-distill0.6t2-bnorm_full_stop10": 0.222
+  },
+  "precision": "fp16",
+  "norm_json": "normalization.json",
+  "patient_smooth": "0.05,0.35,0,0.05,0.1,0.1,0.05,0.05,0.05,0"
+}
